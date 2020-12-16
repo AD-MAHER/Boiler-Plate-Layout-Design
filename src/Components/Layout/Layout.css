@@ -1,0 +1,5 @@
+@import 'antd/dist/antd.css';
+
+.Border{
+    border: 1px solid black;
+}
