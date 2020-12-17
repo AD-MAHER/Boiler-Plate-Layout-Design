@@ -1,8 +1,8 @@
 import React from 'react'
-import Content1 from '../Layout/Content1'
-import Footer1 from '../Layout/Footer1'
-import Header1 from '../Layout/Header1'
-import Sider1 from '../Layout/Sider1'
+import Content1 from '../Layout/Content/Content1'
+import Footer1 from '../Layout/Footer/Footer1'
+import Header1 from '../Layout/Header/Header1'
+import Sider1 from '../Layout/Sider/Sider1'
 import { BrowserRouter } from 'react-router-dom';
 import { Layout } from 'antd';
 
@@ -23,9 +23,9 @@ export default function Pages() {
 
 
 
-        <Layout>
+        <Layout style={{marginTop:'64px'}}>
           <Sider1 />
-          <Layout>
+          <Layout >
             <Content1 >
 
 
