@@ -23,7 +23,7 @@ export default function Pages() {
 
 
 
-        <Layout style={{marginTop:'64px'}}>
+        <Layout style={{ marginTop: '64px' }}>
           <Sider1 />
           <Layout >
             <Content1 >

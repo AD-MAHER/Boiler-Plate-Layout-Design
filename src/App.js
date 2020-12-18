@@ -6,6 +6,9 @@ import Pages from './Components/Module/Pages';
 import { ThemeProvider } from 'styled-components';
 
 
+
+
+
 function App() {
 
 
@@ -13,8 +16,9 @@ function App() {
   return (
 
     <ThemeProvider theme={light}>
+   
       <div>
-
+       
         <Pages />
 
       </div>
