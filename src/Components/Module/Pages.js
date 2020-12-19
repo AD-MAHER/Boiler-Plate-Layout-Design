@@ -10,7 +10,7 @@ import { Layout } from 'antd';
 
 
 
-export default function Pages() {
+export default function Pages(props) {
   return (
     <>
 
@@ -18,7 +18,7 @@ export default function Pages() {
 
 
         <Layout>
-          <Header1 />
+          <Header1  theme={props.theme} changeTheme={props.changeTheme}/>
         </Layout>
 
 

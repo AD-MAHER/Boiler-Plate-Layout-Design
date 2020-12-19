@@ -15,29 +15,29 @@ export default function Sider1() {
                 
                     <Sider collapsible >
                         <div className="logo" />
-                        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" style={{minHeight:'100vh', maxHeight:'100vh' }}>
-                            <Menu.Item key="0" icon={<AiOutlineHome />} >
+                        <Menu theme="dark"  mode="inline" style={{minHeight:'100vh' }}>
+                            <Menu.Item  icon={<AiOutlineHome />} >
                                 <NavLink to='/'>Home</NavLink>
                             </Menu.Item>
 
-                            <Menu.Item key="1" icon={<AiOutlineUserAdd />}>
-                                <NavLink to='/register'>Register</NavLink>
+                            <Menu.Item  icon={<AiOutlineUserAdd />}>
+                                <NavLink to='/register'> Register</NavLink>
                             </Menu.Item>
 
-                            <Menu.Item key="2" icon={<AiOutlineLogin />}>
-                                <NavLink to='/login'>Log In</NavLink>
+                            <Menu.Item  icon={<AiOutlineLogin />}>
+                                <NavLink to='/login' >Log In</NavLink>
                             </Menu.Item>
 
-                            <Menu.Item key="3" icon={<DesktopOutlined />}>
-                                <NavLink to='/desk'>Desk</NavLink>
+                            <Menu.Item  icon={<DesktopOutlined />}>
+                                <NavLink to='/desk' >Desk</NavLink>
                             </Menu.Item>
 
-                            <Menu.Item key="4" icon={<AiOutlineTable />}>
-                                <NavLink to='/table'>Table</NavLink>
+                            <Menu.Item  icon={<AiOutlineTable />}>
+                                <NavLink to='/table' >Table</NavLink>
                             </Menu.Item>
 
-                            <Menu.Item key="5" icon={<FileOutlined />}>
-                                <NavLink to='/files'>Files</NavLink>
+                            <Menu.Item  icon={<FileOutlined />}>
+                                <NavLink to='/files' key="5">Files</NavLink>
                             </Menu.Item>
                         </Menu>
                     </Sider>

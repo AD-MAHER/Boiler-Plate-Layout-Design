@@ -1,9 +1,9 @@
   
 
 
-const light = { 
+const LIGHT = { 
 
     background: '',
     color: '',
   }
-export default light
+export default LIGHT;

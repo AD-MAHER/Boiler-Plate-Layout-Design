@@ -6,10 +6,10 @@
 
  .ant-layout-sider-trigger{
     border: 1px solid black;
-  
+    min-height: auto;
+    align-items : center;
+    justify-content: center;    
 
 } 
-/* .Border{
-    border: 1px solid black;
-} */
+
 
