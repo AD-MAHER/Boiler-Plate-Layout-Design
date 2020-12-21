@@ -3,9 +3,9 @@ import { Layout } from 'antd';
 import { ContentTheme } from './ContentStyle';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../../Module/Pages/Sidebar_Pages/Home';
-import Desk from '../../Module/Pages/Sidebar_Pages/Desk';
+import Desk from '../../Module/Pages/Sidebar_Pages/Desk/Desk';
 import Login from '../../Module/Pages/Sidebar_Pages/Login';
-import Register from '../../Module/Pages/Sidebar_Pages/Register';
+import Register from '../../Module/Pages/Sidebar_Pages/Register/Register';
 import Table1 from '../../Module/Pages/Sidebar_Pages/Table/Table1';
 import Files from '../../Module/Pages/Sidebar_Pages/Files';
 import "../Layout.css"

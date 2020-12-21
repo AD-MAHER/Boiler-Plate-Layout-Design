@@ -1,6 +1,7 @@
 import React from "react";
 import { Form } from "antd";
 const Input1 = (props) => {
+
   return (
     <>
       <Form.Item
@@ -9,7 +10,7 @@ const Input1 = (props) => {
         hasFeedback
         rules={props.rules}
       >
-        {props.Input}
+        {props.input}
       </Form.Item>
     </>
   );

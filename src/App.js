@@ -6,6 +6,7 @@ import Pages from './Components/Module/Pages';
 import { ThemeProvider } from 'styled-components';
 import THEMES from './Core/Themes/Basic/Theme';
 import Index from './Core/Themes/IndexTheme/Index';
+import { GlobalStyles } from './GlobalStyles';
 
 
 
@@ -30,12 +31,14 @@ function App() {
   return (
 
     <ThemeProvider theme={Index[theme]}>
+  <GlobalStyles/>
 
-      <div>
+
+     
 
         <Pages theme={theme} changeTheme={changeTheme} />
 
-      </div>
+      
 
     </ThemeProvider>
 

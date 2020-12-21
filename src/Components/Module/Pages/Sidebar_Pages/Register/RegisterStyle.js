@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-export const ContentTheme = styled.div` 
+export const RegisterTheme = styled.div` 
 .ant-layout-content{
 background-color: ${props => props.theme.background};
 color : ${props => props.theme.color};
@@ -21,16 +21,7 @@ color : ${props => props.theme.color};
  
 }
 
-.ant-form-item-label > label{
-    
-    background-color: ${props => props.theme.background};
-color : ${props => props.theme.color};
-}
 
- .title1{
-    color : ${props => props.theme.color};
-    marginLeft:' 5%';
- }
 
 `;
 
