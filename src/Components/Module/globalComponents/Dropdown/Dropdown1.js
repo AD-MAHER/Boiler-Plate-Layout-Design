@@ -29,7 +29,7 @@ export default class Dropdown1 extends Component {
     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
       Select User <DownOutlined />
     </a>
-  </Dropdown>,
+  </Dropdown>
             </>
         )
     }

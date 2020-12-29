@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Modal } from 'antd';
-import {ModalTheme} from './ModalStyles';
+
 
 const Model1 = (props) => {
     const [visible, setVisible] = useState(false);
@@ -31,7 +31,7 @@ const Model1 = (props) => {
 
     return(
         <div>
-        <ModalTheme>
+
         <p onClick={showModal}>
         {props.btnText}
       </p>
@@ -44,7 +44,7 @@ const Model1 = (props) => {
       >
         <p>{props.modalText}</p>
       </Modal>
-      </ModalTheme>
+
         </div>
     )
 }

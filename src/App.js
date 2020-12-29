@@ -35,7 +35,7 @@ function App() {
 
 
      
-
+<Loader />
         <Pages theme={theme} changeTheme={changeTheme} />
 
       

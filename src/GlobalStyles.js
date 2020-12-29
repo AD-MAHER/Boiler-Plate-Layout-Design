@@ -34,4 +34,26 @@ export const GlobalStyles = createGlobalStyle`
   .ant-radio-wrapper{
     color:${props => props.theme.color};
    }
+
+   .ant-dropdown-menu-light {
+    color:${(props) => props.theme.color};
+      background-color: ${(props) => props.theme.background};
+   }
+   .ant-dropdown-menu-item {
+    color:${(props) => props.theme.color};
+      background-color: ${(props) => props.theme.background};
+      :hover{
+          color:white;
+      }
+   }
+
+
+.ant-modal-header , .ant-modal-title{
+    background-color: ${props => props.theme.background};
+color : ${props => props.theme.color};
+}
+   .ant-modal-content{
+    background-color: ${props => props.theme.background};
+color : ${props => props.theme.color};
+    }
   `;
